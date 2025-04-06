@@ -12,13 +12,6 @@ This project implements user authentication with **Laravel** (backend) and **Rea
 
 ### Backend (Laravel)
 
-Clone the repository and navigate to the project folder. Install the dependencies using Composer:
-```bash
-composer install
-php artisan migrate
-php artisan serve
-npm install
-
 Endpoints
 POST /api/signup: Registers a new user.
 
@@ -37,3 +30,10 @@ Notes
 Ensure the .env file is configured correctly, especially for SQL Server database settings.
 
 After login/signup, you can redirect users to the dashboard with React routing.
+
+Clone the repository and navigate to the project folder. Install the dependencies using Composer:
+```bash
+composer install
+php artisan migrate
+php artisan serve
+npm install
